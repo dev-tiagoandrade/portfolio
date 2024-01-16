@@ -7,7 +7,7 @@
 :root{
     --backgrond-color: #FCFCFC;
     --section-back-color: #F0F0F0;
-    --btn-back-color: #E9E9E9;
+    --btn-back-color: #dddddd;
     --tittle-color: #1B1B1F;
     --subtittle-color: #ADADAD;
     --text-color: #626270;
@@ -34,7 +34,7 @@
     text-decoration: none;
     margin: 0;
     box-sizing: border-box;
-    transition: all ease-in-out 300ms;
+    transition: all linear 200ms;
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
@@ -49,15 +49,17 @@ body{
     flex-direction: row;
     align-items: center;
     padding: .5rem 1rem;
+    width: fit-content;
     border-radius: 2rem;
     gap: .5rem;
+    font-size: .9rem;
     background-color: var(--btn-back-color);
     color: var(--tittle-color);
 }
 
 .btn svg{
-    width: 1rem;
-    height: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 .btn svg > path{
@@ -73,6 +75,12 @@ body{
     fill: var(--backgrond-color);
 }
 
+.btn_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
 
 /*LINKS SOCIAIS*/
 .social-links-content{
