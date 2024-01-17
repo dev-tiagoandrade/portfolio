@@ -101,7 +101,6 @@ body {
 
 .theme:hover svg > path{
     fill: var(--text-color);
-    transform: rotate(-2deg);
 }
 
 .idiomas{
