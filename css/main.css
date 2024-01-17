@@ -191,6 +191,15 @@ body {
   color: var(--backgrond-color);
 }
 
+@media screen and (max-width: 480px) {
+    .btn {
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+      }
+      
+}
+
 /*LINKS DE PÁGINA*/
 .link-page {
   font-size: 0.8rem;
@@ -458,4 +467,13 @@ p {
 }
 .copyright b {
   font-weight: 400;
+}
+
+
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4rem;
+      }
 }
