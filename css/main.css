@@ -576,7 +576,7 @@ p {
 
 @media screen and (max-width: 800px) {
     .intro{
-        height: 55%;
+        height: 70vh;
     }
     .intro-content{
         width: 100%;
