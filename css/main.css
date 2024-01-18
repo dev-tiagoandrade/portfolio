@@ -101,6 +101,13 @@ body {
     fill: var(--text-color);
 }
 
+@media screen and (max-width: 800px) {
+    .theme svg{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
 .idiomas{
     display: flex;
     flex-direction: row;
