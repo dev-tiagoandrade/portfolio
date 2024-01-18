@@ -14,7 +14,7 @@ function AbreMenu() {
 
 let header = document.querySelector("#header")
 window.onscroll = function() {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 80) {
         header.style.backgroundColor = "var(--backgrond-color)";
     } else {
         header.style.backgroundColor = "transparent";
