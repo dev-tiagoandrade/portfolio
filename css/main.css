@@ -558,9 +558,10 @@ p {
 
 /*PÁGINA DE PROJETOS*/
 .intro{
-    height: 70vh;
+    
     width: 100%;
     padding: 4rem;
+    padding-top: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -575,9 +576,7 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-    .intro{
-        height: 70vh;
-    }
+
     .intro-content{
         width: 100%;
     }
