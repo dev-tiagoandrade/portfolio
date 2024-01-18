@@ -537,18 +537,23 @@ p {
   gap: 4rem;
 }
 
-.copyright {
+.copyright{
   width: 100%;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--backgrond-color);
-  color: var(--text-color);
-  font-size: 0.7rem;
-  font-weight: 500;
+  
 }
-.copyright b {
+
+.copyright h6{
+    color: var(--text-color);
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.copyright h6 b {
   font-weight: 400;
 }
 
