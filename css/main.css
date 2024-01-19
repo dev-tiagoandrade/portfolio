@@ -544,7 +544,7 @@ p {
   background-image: url(../images/federado.webp);
   pointer-events: none;
   background-size: cover;
-  height: 20rem;
+  height: auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -554,7 +554,7 @@ p {
 
   .cover-projeto {
     width: 100%;
-    height: 20rem;
+    height: auto;
   }
 }
 
@@ -578,8 +578,27 @@ p {
 
 .projeto-content {
   width: 100%;
-  height: 12rem;
+  height: auto;
   background-color: var(--text-color);
+}
+
+.alt-projeto{
+    display: none;
+}
+
+.projeto-content:hover .alt-projeto{
+    background-color: var(--btn-back-color);
+    padding: 2rem;
+    margin-top: -10rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+}
+
+.img-projeto{
+    width: 100%;
+    height: auto;
 }
 
 /*--CONTATO*/
