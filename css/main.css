@@ -109,8 +109,8 @@ body {
 
 @media screen and (max-width: 800px) {
   .theme svg {
-    width: 2rem;
-    height: 2rem;
+    width: 1.6rem;
+    height: 1.6rem;
   }
 }
 
@@ -121,6 +121,7 @@ body {
   gap: 0.5rem;
   align-items: center;
 }
+
 
 /*-- ICONE DO MENU*/
 .menu {
@@ -398,6 +399,12 @@ body {
 .link-idioma:hover {
   color: var(--tittle-color);
 }
+
+@media screen and (max-width: 800px) {
+    .link-idioma {
+      font-size: 1.6rem;
+    }
+  }
 
 /*--LINK SELECIONADO*/
 .selected {
