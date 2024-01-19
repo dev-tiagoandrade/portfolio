@@ -535,7 +535,9 @@ p {
 
 .cover-projeto {
   width: 40%;
-  background-color: var(--subtittle-color);
+  background-image: url(../images/federado.webp);
+  pointer-events: none;
+  background-size: cover;
   height: 20rem;
 }
 
