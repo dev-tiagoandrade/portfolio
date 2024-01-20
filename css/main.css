@@ -360,6 +360,31 @@ body {
   gap: 1rem;
 }
 
+/*--VOLTAR AO TOPO*/
+.btn-topo{
+    position: fixed;
+    z-index: 3;
+    bottom: 4rem;
+    right: 4rem;
+    display: none;
+    background-color: var(--nav-back-color);
+    padding: 1rem .9rem;
+    border-radius: 2rem;
+}
+
+.btn-topo svg path{
+    fill: var(--tittle-color);
+}
+
+.btn-topo:hover {
+    background-color: var(--tittle-color);
+    color: var(--backgrond-color);
+  }
+  
+  .btn-topo:hover svg > path {
+    fill: var(--backgrond-color);
+  }
+
 /*-- BOTÕES REDES SOCIAIS*/
 .social-links-content {
   display: flex;
@@ -567,7 +592,7 @@ p {
 
 .cover-projeto {
   width: 40%;
-  background-image: url(../images/federado.webp);
+  border-radius: .3rem;
   pointer-events: none;
   background-size: cover;
   height: auto;
@@ -606,8 +631,8 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
+  border-radius: .3rem;
   height: auto;
-  background-color: var(--text-color);
 }
 
 .projeto-content {
@@ -626,6 +651,7 @@ p {
   display: flex;
   align-items: center;
   padding: .5rem;
+  border-radius: .3rem;
   justify-content: center;
   gap: .5rem;
   flex-direction: column;
@@ -635,6 +661,7 @@ p {
 
 .img-projeto {
   width: 100%;
+  border-radius: .3rem;
   height: auto;
 }
 
@@ -648,6 +675,7 @@ p {
         display: flex;
         align-items: center;
         padding: 2rem;
+        border-radius: .3rem;
         justify-content: flex-end;
         gap: .5rem;
         flex-direction: column;

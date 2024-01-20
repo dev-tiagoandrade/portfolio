@@ -20,8 +20,9 @@ function AbreMenu() {
     
 }
 
-//ADICIONAR BACKGROUND NO HEADER QUANDO O SCROLL Y DA TELA PASSAR DE 80PX 
+//ADICIONAR BACKGROUND NO HEADER QUANDO O SCROLL Y DA TELA PASSAR DE 80PX E O BOTÃO DE VOLTAR AO TOPO
 let header = document.querySelector("#header")
+let btnTopo = document.querySelector('.btn-topo');
 window.onscroll = function() {
     //VERIFICA A POSIÇÃO DE SCROLL Y DA TELA
     if (window.scrollY > 80) {
@@ -31,6 +32,16 @@ window.onscroll = function() {
         //SE FOR MENOR QUE 80PX REMOVE O BACKGROUND DO HEADER
         header.style.backgroundColor = "transparent";
     }
+
+    //VERIFICA A POSIÇÃO DE SCROLL Y DA TELA
+    if (window.scrollY > 1000){
+        //SE FOR MAIOR QUE 1000PX ADICIONA O BOTÃO DE VOLTAR AO TOPO
+        btnTopo.style.display = "flex";
+    } else {
+        //SE FOR MENOR QUE 1000PX REMOVE O BOTÃO DE VOLTAR AO TOPO
+        btnTopo.style.display = "none";
+    }
+
 }
 
 //VERIFICAR O MODO DE COR PADRÃO DO USUÁRIO
@@ -38,7 +49,6 @@ let site = document.querySelector('.html');
 
 //PEGA O CSS MEDIA RESPONSÁVEL POR VERIFICAR O MODO PADRÃO DO SISTEMA
 const temaescuro = window.matchMedia('(prefers-color-scheme: dark)');
-console.log(temaescuro.matches)
 
 function trocatema(){
     //LAÇO DE REPETIÇÃO PARA EFETUAR A VERIFICAÇÃO TANTO NO MODO DESKTOP QUANTO NO MOBILE
@@ -97,3 +107,6 @@ function tema(){
         }
     }   
 }
+
+//BOTÃO DE VOLTAR AO TOPO
+
