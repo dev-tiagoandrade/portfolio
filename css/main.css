@@ -761,6 +761,7 @@ p {
 @media screen and (max-width: 800px) {
     .intro {
         padding: 4rem 3rem;
+        padding-top: 10rem;
     }
 
   .intro-content {
