@@ -92,6 +92,13 @@ body {
   align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+    .header{
+        padding: 2rem 3rem;
+    }
+    
+}
+
 /*-- ICONE DE TEMA*/
 .theme {
   cursor: pointer;
@@ -171,6 +178,7 @@ body {
 @media screen and (max-width: 800px) {
   .footer {
     flex-direction: column;
+    padding: 4rem 3rem;
     align-items: flex-start;
     gap: 4rem;
   }
@@ -257,7 +265,7 @@ body {
   cursor: pointer;
   text-align: center;
   font-size: 1.2rem;
-  color: var(--tittle-color);
+  color: var(--text-color);
 }
 
 .nav-paginas:hover {
@@ -370,6 +378,14 @@ body {
   background-color: var(--nav-back-color);
   padding: 1rem 0.9rem;
   border-radius: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .btn-topo{
+        bottom: 4rem;
+        right: 3rem;
+    }
+    
 }
 
 .btn-topo svg path {
@@ -599,6 +615,10 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+  .projeto-em-destaque{
+    padding: 4rem 3rem;
+  }
+  
   .projeto-em-destaque-content {
     width: 100%;
   }
@@ -666,6 +686,10 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+    .projetos {
+        padding: 4rem 3rem;
+    }
+
   .alt-projeto {
     background: linear-gradient(180deg, #1b1b1f00, #1a1a1ec9);
     position: absolute;
@@ -708,6 +732,12 @@ p {
   width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+    .contato {
+        padding: 4rem 3rem;
+    }
+}
+
 /*ESTILOS ESPECÍFICOS PARA PÁGINAS DE PROJETOS
 
 --INTRO*/
@@ -729,6 +759,10 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+    .intro {
+        padding: 4rem 3rem;
+    }
+
   .intro-content {
     width: 100%;
   }
