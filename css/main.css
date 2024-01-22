@@ -465,6 +465,16 @@ body {
   }
 }
 
+/*--LINK DE TEXTO*/
+.link-texto{
+  color: var(--tittle-color);
+  font-weight: 500;
+}
+
+.link-texto:hover{
+  text-decoration: underline;
+}
+
 /*--LINK SELECIONADO*/
 .selected {
   color: var(--tittle-color) !important;

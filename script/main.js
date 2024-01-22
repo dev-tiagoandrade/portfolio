@@ -1,9 +1,9 @@
-//VERIFICAR O MODO DE COR PADRÃO DO USUÁRIO
 let site = document.querySelector('.html');
 
 //PEGA O CSS MEDIA RESPONSÁVEL POR VERIFICAR O MODO PADRÃO DO SISTEMA
 const temaescuro = window.matchMedia('(prefers-color-scheme: dark)');
 
+//VERIFICAR O MODO DE COR PADRÃO DO USUÁRIO
 function trocatema(){
     //LAÇO DE REPETIÇÃO PARA EFETUAR A VERIFICAÇÃO TANTO NO MODO DESKTOP QUANTO NO MOBILE
     for (let x = 0; x <= 1; x++){
@@ -87,6 +87,7 @@ function AbreMenu() {
 //ADICIONAR BACKGROUND NO HEADER QUANDO O SCROLL Y DA TELA PASSAR DE 80PX E O BOTÃO DE VOLTAR AO TOPO
 let header = document.querySelector("#header")
 let btnTopo = document.querySelector('.btn-topo');
+
 window.onscroll = function() {
     //VERIFICA A POSIÇÃO DE SCROLL Y DA TELA
     if (window.scrollY > 80) {
