@@ -7,7 +7,7 @@
 :root {
   --backgrond-color: #fcfcfc;
   --section-back-color: #f0f0f0;
-  --btn-back-color: #2b2b2b15;
+  --btn-back-color: #2b2b2b10;
   --nav-back-color: #fcfcfcda;
   --tittle-color: #1b1b1f;
   --subtittle-color: #adadad;
@@ -35,7 +35,7 @@
   text-decoration: none;
   margin: 0;
   box-sizing: border-box;
-  transition: all linear 200ms;
+  transition: all ease-in-out .2s;
   list-style: none;
   font-family: "Poppins", sans-serif;
 }
@@ -84,7 +84,7 @@ body {
   position: fixed;
   z-index: 1;
   background-color: transparent;
-  padding: 2rem 4rem;
+  padding: 2rem 6rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -142,7 +142,7 @@ body {
 -- CORPO DO FOOTER*/
 .footer {
   background-color: var(--section-back-color);
-  padding: 4rem;
+  padding: 6rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -178,7 +178,7 @@ body {
 @media screen and (max-width: 800px) {
   .footer {
     flex-direction: column;
-    padding: 4rem 3rem;
+    padding: 6rem 3rem;
     align-items: flex-start;
     gap: 4rem;
   }
@@ -286,7 +286,8 @@ body {
   width: fit-content;
   border-radius: 2rem;
   gap: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 500;
   background-color: var(--btn-back-color);
   color: var(--tittle-color);
 }
@@ -482,10 +483,15 @@ body {
 }
 
 /*ESTILOS DE TEXTO
+
 --TÍTULO*/
+h1{
+  font-size: 2.5rem;
+}
+
 .tittle,
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--tittle-color);
 }
 
@@ -519,7 +525,7 @@ h3 {
 /*--TÍTULOS DE SEÇÃO*/
 .pages-titulo,
 h4 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--tittle-color);
 }
@@ -527,7 +533,7 @@ h4 {
 /*--PARÁGRAFOS*/
 .paragraph,
 p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-color);
 }
 
@@ -536,7 +542,7 @@ p {
 --HERO SECTION*/
 .hero-section {
   width: 100%;
-  height: 85vh;
+  height: 65vh;
   background-size: cover;
   background-image: var(--back-img);
   display: flex;
@@ -547,21 +553,24 @@ p {
 
 .hero-section-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3rem;
 }
 
-.minha-cara {
-  width: 12rem;
-  pointer-events: none;
-}
 
 .info {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 3rem;
+}
+
+.sobre-mim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sobre-mim h4 {
@@ -571,7 +580,7 @@ p {
 }
 
 .sobre-mim h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 800;
   color: var(--tittle-color);
 }
@@ -581,21 +590,9 @@ p {
     height: 90vh;
   }
 
-  .hero-section-content {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .minha-cara {
-    width: 10rem;
-    pointer-events: none;
-  }
 
-  .sobre-mim {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
 }
 
 /*--PROJETO EM DESTAQUE*/
@@ -606,7 +603,7 @@ p {
   align-items: center;
   justify-content: space-between;
   background-color: var(--section-back-color);
-  padding: 4rem;
+  padding: 6rem;
 }
 
 .projeto-em-destaque-content {
@@ -618,7 +615,7 @@ p {
 
 .cover-projeto {
   width: 40%;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   pointer-events: none;
   background-size: cover;
   height: auto;
@@ -626,7 +623,7 @@ p {
 
 @media screen and (max-width: 800px) {
   .projeto-em-destaque{
-    padding: 4rem 3rem;
+    padding: 7rem 3rem;
   }
   
   .projeto-em-destaque-content {
@@ -642,12 +639,18 @@ p {
 /*--PROJETOS*/
 .projetos {
   width: 100%;
-  padding: 4rem;
+  padding: 7rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 2rem;
+}
+
+.projetos  .btn-content{
+width: 100%;
+display: flex;
+justify-content: flex-end;
 }
 
 .grid-projetos {
@@ -661,7 +664,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border-radius: 0.3rem;
+  border-radius: 2rem;
   height: auto;
 }
 
@@ -681,7 +684,7 @@ p {
   display: flex;
   align-items: center;
   padding: 0.5rem;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   justify-content: center;
   gap: 0.5rem;
   flex-direction: column;
@@ -691,14 +694,22 @@ p {
 
 .img-projeto {
   width: 100%;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   height: auto;
 }
 
 @media screen and (max-width: 800px) {
     .projetos {
-        padding: 4rem 3rem;
+        padding: 7rem 3rem;
+        align-items: center;
     }
+
+    .projetos  .btn-content{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      }
+      
 
   .alt-projeto {
     background: linear-gradient(180deg, #1b1b1f00, #1a1a1ec9);
@@ -708,7 +719,7 @@ p {
     display: flex;
     align-items: center;
     padding: 2rem;
-    border-radius: 0.3rem;
+    border-radius: 1rem;
     justify-content: flex-end;
     gap: 0.5rem;
     flex-direction: column;
@@ -725,7 +736,7 @@ p {
 
 /*--CONTATO*/
 .contato {
-  padding: 4rem;
+  padding: 3rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -744,7 +755,7 @@ p {
 
 @media screen and (max-width: 800px) {
     .contato {
-        padding: 4rem 3rem;
+        padding: 7rem 3rem;
     }
 }
 
@@ -753,7 +764,7 @@ p {
 --INTRO*/
 .intro {
   width: 100%;
-  padding: 4rem;
+  padding: 3rem 7rem;
   padding-top: 10rem;
   display: flex;
   flex-direction: column;
@@ -768,6 +779,31 @@ p {
   width: 80%;
 }
 
+.info-projeto{
+  font-size: .8rem;
+  margin-top: 1rem;
+  color: var(--text-color);
+}
+
+.projeto{
+  padding: 3rem 7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.projeto-img{
+  width: 100%;
+  border-radius: 1rem;
+  pointer-events: none;
+}
+.small{
+  width: 48.5%;
+}
+
 @media screen and (max-width: 800px) {
     .intro {
         padding: 4rem 3rem;
@@ -777,4 +813,13 @@ p {
   .intro-content {
     width: 100%;
   }
+
+  .projeto{
+    padding:3rem
+  }
+
+  .small{
+    width: 100%;
+  }
+
 }
