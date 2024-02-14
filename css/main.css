@@ -287,7 +287,6 @@ body {
   border-radius: 2rem;
   gap: 0.5rem;
   font-size: 1rem;
-  font-weight: 500;
   background-color: var(--btn-back-color);
   color: var(--tittle-color);
 }
@@ -693,9 +692,9 @@ justify-content: flex-end;
 }
 
 .img-projeto {
-  width: 100%;
   border-radius: 1rem;
-  height: auto;
+  height: 100%;
+  width: auto;
 }
 
 @media screen and (max-width: 800px) {
