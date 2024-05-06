@@ -109,3 +109,17 @@ window.onscroll = function() {
 
 }
 
+//ALTERA VERSÃO DE VISUALIZAÇÃO
+function AlteraVersao(){
+    var projeto = document.querySelector(".projeto-img");
+    var spantexto = document.querySelector(".spantexto")
+    if (projeto.src.match('nm-01.png')){
+        projeto.src = 'nm-02.png';
+        projeto.classList.add("small")
+        spantexto.innerHTML = "Versão Mobile"
+    } else {
+        projeto.src = 'nm-01.png';
+        projeto.classList.remove("small")
+        spantexto.innerHTML = "Versão Desktop"
+    }
+}
