@@ -796,7 +796,7 @@ justify-content: flex-end;
   pointer-events: none;
 }
 .small{
-  width: 49.3%;
+  width: calc(50% - .5rem);
 }
 
 @media screen and (max-width: 800px) {
@@ -814,7 +814,7 @@ justify-content: flex-end;
   }
 
   .small{
-    width: 100%;
+    width: calc(50% - .5rem);
   }
 
 }
