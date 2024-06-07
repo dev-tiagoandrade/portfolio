@@ -47,7 +47,7 @@ body {
 
 /*CLASSES GERAIS PARA RESPONSIVIDADE*/
 .static {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .hiddem-desktop {
