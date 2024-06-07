@@ -619,7 +619,7 @@ p {
 
 @media screen and (max-width: 800px) {
   .projeto-em-destaque{
-    padding: 7rem 3rem;
+    padding: 6rem 3rem;
   }
   
   .projeto-em-destaque-content {
@@ -635,7 +635,7 @@ p {
 /*--PROJETOS*/
 .projetos {
   width: 100%;
-  padding: 7rem;
+  padding: 6rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -696,7 +696,7 @@ justify-content: flex-end;
 
 @media screen and (max-width: 800px) {
     .projetos {
-        padding: 7rem 3rem;
+        padding: 6rem 3rem;
         align-items: center;
     }
 
@@ -751,7 +751,7 @@ justify-content: flex-end;
 
 @media screen and (max-width: 800px) {
     .contato {
-        padding: 7rem 3rem;
+        padding: 6rem 3rem;
     }
 }
 
@@ -760,7 +760,7 @@ justify-content: flex-end;
 --INTRO*/
 .intro {
   width: 100%;
-  padding: 3rem 7rem;
+  padding: 3rem 6rem;
   padding-top: 10rem;
   display: flex;
   flex-direction: column;
@@ -782,7 +782,7 @@ justify-content: flex-end;
 }
 
 .projeto{
-  padding: 3rem 7rem;
+  padding: 3rem 6rem;
   width: 100%;
   display: flex;
   flex-direction: row;
