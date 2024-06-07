@@ -94,7 +94,7 @@ body {
 
 @media screen and (max-width: 800px) {
     .header{
-        padding: 2rem 3rem;
+        padding: 2rem 2rem;
     }
     
 }
@@ -178,7 +178,7 @@ body {
 @media screen and (max-width: 800px) {
   .footer {
     flex-direction: column;
-    padding: 6rem 3rem;
+    padding: 6rem 2rem;
     align-items: flex-start;
     gap: 4rem;
   }
@@ -384,7 +384,7 @@ body {
 @media screen and (max-width:800px) {
     .btn-topo{
         bottom: 4rem;
-        right: 3rem;
+        right: 2rem;
     }
     
 }
@@ -619,7 +619,7 @@ p {
 
 @media screen and (max-width: 800px) {
   .projeto-em-destaque{
-    padding: 6rem 3rem;
+    padding: 6rem 2rem;
   }
   
   .projeto-em-destaque-content {
@@ -696,7 +696,7 @@ justify-content: flex-end;
 
 @media screen and (max-width: 800px) {
     .projetos {
-        padding: 6rem 3rem;
+        padding: 6rem 2rem;
         align-items: center;
     }
 
@@ -751,7 +751,7 @@ justify-content: flex-end;
 
 @media screen and (max-width: 800px) {
     .contato {
-        padding: 6rem 3rem;
+        padding: 6rem 2rem;
     }
 }
 
@@ -802,7 +802,7 @@ justify-content: flex-end;
 
 @media screen and (max-width: 800px) {
     .intro {
-        padding: 4rem 3rem;
+        padding: 4rem 2rem;
         padding-top: 10rem;
     }
 
@@ -811,7 +811,7 @@ justify-content: flex-end;
   }
 
   .projeto{
-    padding:3rem
+    padding:2rem
   }
 
   .small{
