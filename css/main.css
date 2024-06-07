@@ -281,6 +281,7 @@ body {
 .btn {
   display: flex;
   flex-direction: row;
+  cursor: pointer;
   align-items: center;
   padding: 0.5rem 1rem;
   width: fit-content;
