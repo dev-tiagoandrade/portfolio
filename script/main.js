@@ -115,11 +115,11 @@ function AlteraVersao(){
     var spantexto = document.querySelector(".spantexto")
     if (projeto.src.match('01.webp')){
         projeto.src = '02.png';
-        projeto.classList.add("small")
+        projeto.classList.add("small-mobile")
         spantexto.innerHTML = "Versão Mobile"
     } else {
         projeto.src = '01.webp';
-        projeto.classList.remove("small")
+        projeto.classList.remove("small-mobile")
         spantexto.innerHTML = "Versão Desktop"
     }
 }
