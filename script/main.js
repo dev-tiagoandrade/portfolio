@@ -113,12 +113,12 @@ window.onscroll = function() {
 function AlteraVersao(){
     var projeto = document.querySelector(".projeto-img");
     var spantexto = document.querySelector(".spantexto")
-    if (projeto.src.match('01.png')){
-        projeto.src = '02.png';
+    if (projeto.src.match('01.webp')){
+        projeto.src = '02.webp';
         projeto.classList.add("small")
         spantexto.innerHTML = "Versão Mobile"
     } else {
-        projeto.src = '01.png';
+        projeto.src = '01.webp';
         projeto.classList.remove("small")
         spantexto.innerHTML = "Versão Desktop"
     }
