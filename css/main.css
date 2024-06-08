@@ -369,6 +369,15 @@ body {
   gap: 1rem;
 }
 
+.btn-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 /*--VOLTAR AO TOPO*/
 .btn-topo {
   position: fixed;
