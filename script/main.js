@@ -109,14 +109,17 @@ window.onscroll = function() {
 
 }
 
-//ALTERA VERSÃO DE VISUALIZAÇÃO
+//ALTERA VERSÃO DE VISUALIZAÇÃO (DESKTOP/MOBILE)
 function AlteraVersao(){
     var projeto = document.querySelector(".projeto-img");
-    var spantexto = document.querySelector(".spantexto")
+    var spantexto = document.querySelector(".spantexto");
+    //MUDAR DE DESKTOP PARA MOBILE
     if (projeto.src.match('01.webp')){
         projeto.src = '02.png';
         projeto.classList.add("small-mobile")
         spantexto.innerHTML = "Versão Mobile"
+
+    //MUDAR DE MOBILE PAEA DESKTOP
     } else {
         projeto.src = '01.webp';
         projeto.classList.remove("small-mobile")
