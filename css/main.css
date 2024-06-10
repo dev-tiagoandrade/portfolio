@@ -94,7 +94,7 @@ body {
 
 @media screen and (max-width: 800px) {
     .header{
-        padding: 2rem 2rem;
+        padding: 2rem 1.5rem;
     }
     
 }
@@ -178,7 +178,7 @@ body {
 @media screen and (max-width: 800px) {
   .footer {
     flex-direction: column;
-    padding: 6rem 2rem;
+    padding: 6rem 1.5rem;
     align-items: flex-start;
     gap: 4rem;
   }
@@ -393,7 +393,7 @@ body {
 @media screen and (max-width:800px) {
     .btn-topo{
         bottom: 4rem;
-        right: 2rem;
+        right: 1.5rem;
     }
     
 }
@@ -504,11 +504,16 @@ h2 {
   color: var(--tittle-color);
 }
 
+.contato-content > .tittle {
+  text-align: center !important;
+}
+
 @media screen and (max-width: 800px) {
   .tittle {
     width: 100%;
     text-align: left
   }
+
 }
 
 /*--NOME DOS PROJETOS*/
@@ -629,7 +634,7 @@ p {
 
 @media screen and (max-width: 800px) {
   .projeto-em-destaque{
-    padding: 6rem 2rem;
+    padding: 6rem 1.5rem;
   }
   
   .projeto-em-destaque-content {
@@ -706,7 +711,7 @@ justify-content: flex-end;
 
 @media screen and (max-width: 800px) {
     .projetos {
-        padding: 3rem 2rem;
+        padding: 3rem 1.5rem;
         align-items: center;
     }
 
@@ -761,7 +766,7 @@ justify-content: flex-end;
 
 @media screen and (max-width: 800px) {
     .contato {
-        padding: 6rem 2rem;
+        padding: 6rem 1.5rem;
     }
 }
 
@@ -816,7 +821,7 @@ justify-content: flex-end;
 
 @media screen and (max-width: 800px) {
     .intro {
-        padding: 4rem 2rem;
+        padding: 4rem 1.5rem;
         padding-top: 10rem;
     }
 
@@ -825,7 +830,7 @@ justify-content: flex-end;
   }
 
   .projeto{
-    padding:2rem
+    padding: 1.5rem;
   }
 
   .small{
