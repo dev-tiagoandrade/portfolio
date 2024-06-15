@@ -292,7 +292,7 @@ body {
   color: var(--tittle-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   .btn {
     flex-direction: column;
     align-items: center;
@@ -602,7 +602,7 @@ p {
 
 @media screen and (max-width: 800px) {
   .hero-section {
-    height: 90vh;
+    height: 75vh;
   }
 }
 
