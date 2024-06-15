@@ -121,14 +121,6 @@ body {
   }
 }
 
-/*-- ICONES DE IDIOMA*/
-.idiomas {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  align-items: center;
-}
-
 /*-- ICONE DO MENU*/
 .menu {
   display: flex;
