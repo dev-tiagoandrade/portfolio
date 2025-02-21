@@ -801,7 +801,7 @@ justify-content: flex-end;
 .projeto-img{
   width: 100%;
   border-radius: .2rem;
-  border: #adadad 1px solid;
+  border: var(--nav-back-color) 1px solid;
   pointer-events: none;
 }
 .small{
