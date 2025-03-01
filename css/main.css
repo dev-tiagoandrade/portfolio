@@ -801,11 +801,16 @@ justify-content: flex-end;
 .projeto-img{
   width: 100%;
   border-radius: .2rem;
-  border: var(--nav-back-color) 1px solid;
+  border: var(--btn-back-color) 1px solid;
   pointer-events: none;
 }
+
 .small{
   width: calc(50% - .25rem);
+}
+
+.no-border{
+  border: none !important;
 }
 
 .small-mobile{

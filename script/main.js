@@ -109,6 +109,14 @@ window.onscroll = function() {
 
 }
 
+//FUNÇÃO PARA VOLTAR AO TOPO DA TELA
+function VoltaTopo() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
 //ALTERA VERSÃO DE VISUALIZAÇÃO (DESKTOP/MOBILE)
 function AlteraVersao(){
     var projeto = document.querySelector(".projeto-img");
