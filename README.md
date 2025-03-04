@@ -2,7 +2,7 @@
 
 Olá! Meu nome é **Tiago Andrade**, tenho 19 anos e sou apaixonado por tecnologia e design. Neste portfólio, você vai encontrar alguns de meus projetos de Desenvolvimento, Ui/Ux Design e Desing Gráfico.
 
----
+
 
 ## Sobre Mim
 
