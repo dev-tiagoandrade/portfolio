@@ -4,6 +4,7 @@ Olá! Meu nome é **Tiago Andrade**, tenho 19 anos e sou apaixonado por tecnolog
 
 
 
+
 ## Sobre Mim
 
 - **Idade:** 19 anos  
@@ -11,7 +12,8 @@ Olá! Meu nome é **Tiago Andrade**, tenho 19 anos e sou apaixonado por tecnolog
 - **Experiência:**
   - **Freelancer:** Trabalho em projetos de desenvolvimento e UX/UI, transformando ideias em soluções digitais simples e intuitivas.
 
----
+
+
 
 ## Habilidades
 
@@ -19,7 +21,8 @@ Olá! Meu nome é **Tiago Andrade**, tenho 19 anos e sou apaixonado por tecnolog
 - **UX/UI Design:** Criação de wireframes, prototipação, testes de usabilidade e design centrado no usuário.  
 - **Ferramentas:** Git, Figma, Adobe XD, VSCode, PyCharm, WebStorm.
 
----
+
+
 
 ## Contato
 
@@ -27,7 +30,8 @@ Olá! Meu nome é **Tiago Andrade**, tenho 19 anos e sou apaixonado por tecnolog
 - **LinkedIn:** [linkedin.com/in/tiihzin](https://linkedin.com/in/tiihzin)  
 - **GitHub:** [github.com/dev-tiagoandrade](https://github.com/dev-tiagoandrade)
 
----
+
+
 
 **Tiago Andrde**
 
