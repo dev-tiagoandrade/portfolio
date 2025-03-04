@@ -13,7 +13,7 @@
   --tittle-color: #1b1b1f;
   --subtittle-color: #adadad;
   --text-color: #626270;
-  --back-img: url(images/back-light-theme.webp);
+  --back-img: url(images/backgrounds/back-light-theme.webp);
 }
 
 /*-- VARIÁVEIS DE MODO ESCURO*/
@@ -25,7 +25,7 @@
   --tittle-color: #fcfcfc;
   --subtittle-color: #4e4e58;
   --text-color: #b1b1b1;
-  --back-img: url(images/back-dark-theme.webp);
+  --back-img: url(images/backgrounds/back-dark-theme.webp);
 }
 
 /*DEFINE OS ESTILOS PADRÕES DO DOCUMENTO*/
