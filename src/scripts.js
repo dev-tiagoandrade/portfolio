@@ -119,17 +119,17 @@ function voltaTopo() {
 
 //ALTERA VERSÃO DE VISUALIZAÇÃO (DESKTOP/MOBILE)
 function alteraVersao(){
-    var projeto = document.querySelector(".projeto-images");
+    var projeto = document.querySelector(".projeto-img");
     var btn = document.querySelector("#btn-versao");
     //MUDAR DE DESKTOP PARA MOBILE
-    if (projeto.src.match('01.webp')){
-        projeto.src = '02.webp';
+    if (projeto.src.match('images/01.webp')){
+        projeto.src = 'images/02.webp';
         projeto.classList.add("small-mobile")
         btn.innerHTML = "Ver Desktop"
 
     //MUDAR DE MOBILE PAEA DESKTOP
     } else {
-        projeto.src = '01.webp';
+        projeto.src = 'images/01.webp';
         projeto.classList.remove("small-mobile")
         btn.innerHTML = "Ver Mobile"
     }

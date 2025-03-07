@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html class="html" lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../src/styles.css" />
-    <link
-      rel="shortcut icon"
-      href="../../src/images/favicon/favicon.ico"
-      type="image/x-icon"
-    />
-    <script defer src="../../src/scripts.js"></script>
-    <title>Desenvolvimento | Tiago Andrade</title>
-  </head>
-  <body>
-    <span id="topo"></span>
-    <div id="nav" class="nav close">
-      <nav class="nav-content">
-        <a href="../../" class="nav-paginas">Início</a>
-        <a href="" class="nav-paginas selected">Projetos de Desenvolvimento</a>
-        <a href="../interfaces.html" class="nav-paginas"
-          >Projetos de Interface</a
-        >
-        <a href="../design.html" class="nav-paginas">Projetos de Design</a>
-      </nav>
-      <div class="menu hiddem-desktop">
-        <span onclick="tema()" class="theme"
-          ><svg
-            width="19"
-            height="21"
-            viewBox="0 0 19 21"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M2.0003 15.1608C2.7853 16.5206 3.87948 17.6765 5.19426 18.5349C6.50903 19.3932 8.00746 19.9299 9.56821 20.1014C11.129 20.273 12.7082 20.0746 14.178 19.5224C15.6479 18.9701 16.967 18.0795 18.0286 16.9227C15.9512 17.3853 13.7804 17.173 11.8319 16.3168C9.88341 15.4605 8.25894 14.0049 7.19478 12.1617C6.13062 10.3186 5.68229 8.18395 5.91499 6.06839C6.14769 3.95284 7.04929 1.9667 8.48863 0.398899C6.95595 0.739878 5.5251 1.43698 4.31192 2.43377C3.09874 3.43056 2.13733 4.69902 1.50553 6.13645C0.873728 7.57389 0.589293 9.1399 0.675251 10.7077C0.761209 12.2755 1.21514 13.801 2.0003 15.1608Z"
-              fill="#1B1B1F"
-            />
-          </svg>
-        </span>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../src/styles.css" />
+        <link
+          rel="shortcut icon"
+          href="../../src/images/favicon/favicon.ico"
+          type="image/x-icon"
+        />
+        <script defer src="../../src/scripts.js"></script>
+        <title>Desenvolvimento | Tiago Andrade</title>
+    </head>
+    <body>
+        <div id="nav" class="nav close">
+            <nav class="nav-content">
+                <a href="../../" class="nav-paginas">Início</a>
+                <a href="" class="nav-paginas selected">Projetos de Desenvolvimento</a>
+                <a href="../interfaces" class="nav-paginas">Projetos de Interface</a>
+                <a href="../design" class="nav-paginas">Projetos de Design</a>
+            </nav>
+            <div class="menu hiddem-desktop">
+                <span onclick="tema()" class="theme">
+                    <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.0003 15.1608C2.7853 16.5206 3.87948 17.6765 5.19426 18.5349C6.50903 19.3932 8.00746 19.9299 9.56821 20.1014C11.129 20.273 12.7082 20.0746 14.178 19.5224C15.6479 18.9701 16.967 18.0795 18.0286 16.9227C15.9512 17.3853 13.7804 17.173 11.8319 16.3168C9.88341 15.4605 8.25894 14.0049 7.19478 12.1617C6.13062 10.3186 5.68229 8.18395 5.91499 6.06839C6.14769 3.95284 7.04929 1.9667 8.48863 0.398899C6.95595 0.739878 5.5251 1.43698 4.31192 2.43377C3.09874 3.43056 2.13733 4.69902 1.50553 6.13645C0.873728 7.57389 0.589293 9.1399 0.675251 10.7077C0.761209 12.2755 1.21514 13.801 2.0003 15.1608Z" fill="#1B1B1F"/>
+                    </svg>
+                </span>
+            </div>
       </div>
-    </div>
-    <header id="header" class="header">
-      <span class="logo-header">Tiago Andrade | <b>Portfólio</b></span>
-      <div class="menu">
+      <header id="header" class="header">
+          <span class="logo-header">Tiago Andrade | <b>Portfólio</b></span>
+          <div class="menu">
         <span onclick="tema()" class="theme hiddem-mobile"
           ><svg
             width="19"
@@ -131,7 +119,7 @@
       <section class="grid-projetos">
         <a
           target="_blank"
-          name="EDITOR DE CÓDIGO"
+
           href="https://tiihzin.github.io/EditordeCodigo/"
           class="projeto-content"
         >
@@ -225,22 +213,16 @@
     </section>
 
     <footer class="footer">
-      <span class="logo-footer">Tiago Andrade | <b>Portfólio</b></span>
-      <div class="nav-guia-pages">
-        <ul class="pages-content">
-          <h4 class="pages-titulo">Páginas</h4>
-          <li><a href="../../" class="link-page">Início</a></li>
-          <li>
-            <a href="#topo" class="link-page selected"
-              >Projetos de Desenvolvimento</a
-            >
-          </li>
-          <li>
-            <a href="../interfaces/" class="link-page">Projetos de Interface</a>
-          </li>
-          <li><a href="../design/" class="link-page">Projetos de Design</a></li>
-        </ul>
-      </div>
+        <span class="logo-footer">Tiago Andrade | <b>Portfólio</b></span>
+        <div class="nav-guia-pages">
+            <ul class="pages-content">
+                <li><h4 class="pages-titulo">Páginas</h4></li>
+                <li><a href="../../" class="link-page">Início</a></li>
+                <li><a href="" class="link-page selected">Projetos de Desenvolvimento</a></li>
+                <li><a href="../interfaces/" class="link-page">Projetos de Interface</a></li>
+                <li><a href="../design/" class="link-page">Projetos de Design</a></li>
+            </ul>
+        </div>
     </footer>
     <section class="copyright">
       <h6>Copyright © Tiago Andrade | <b>Todos os Direitos Reservados</b></h6>
